@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class PesertaModel extends Model
+{
+    use HasFactory;
+
+    protected $table = 'peserta';
+    protected $guarded = ['id_peserta'];
+}
